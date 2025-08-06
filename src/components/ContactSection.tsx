@@ -72,7 +72,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contacto" className="py-20">
+    <section id="contacto" className="py-20 bg-background">
       <div className="section-container section-padding">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -174,7 +174,7 @@ const ContactSection = () => {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-primary hover:bg-primary-light button-shadow"
+                    className="w-full bg-secondary hover:bg-secondary-light text-secondary-foreground button-shadow"
                   >
                     {isSubmitting ? (
                       "Enviando..."

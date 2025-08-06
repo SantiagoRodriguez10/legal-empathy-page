@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-section-alt">
       <div className="section-container section-padding">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">

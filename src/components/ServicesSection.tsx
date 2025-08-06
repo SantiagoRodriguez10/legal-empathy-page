@@ -63,7 +63,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="servicios" className="py-20 bg-muted/30">
+    <section id="servicios" className="py-20 bg-section-alt">
       <div className="section-container section-padding">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -79,12 +79,12 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="fade-in card-shadow hover:scale-105 transition-smooth"
+              className="fade-in card-shadow hover:scale-105 hover:border-secondary/30 transition-smooth border-border"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-6 text-center">
-                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <service.icon className="w-8 h-8 text-primary" />
+                <div className="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <service.icon className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-primary">
                   {service.title}
